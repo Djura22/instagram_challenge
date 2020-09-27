@@ -1,4 +1,4 @@
-package com.michael.instagram.jdbcauthentication.controller;
+package com.michael.instagram.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,27 +6,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class WebController {
    
-    @RequestMapping(value="/")
+    @RequestMapping("/")
     public String home(){
         return "home";
     }
    
-    @RequestMapping(value="/user")
+    @RequestMapping("/user")
     public String user(){
         return "user";
     }
   
-    @RequestMapping(value="/admin")
+    @RequestMapping("/admin")
     public String admin(){
         return "admin";
     }
    
-    @RequestMapping(value="/login")
+    @RequestMapping("/login")
     public String login(){
         return "login";
     }
    
-    @RequestMapping(value="/403")
+    @RequestMapping("/403")
     public String Error403(){
         return "403";
     }

@@ -1,4 +1,4 @@
-package com.michael.instagram.jdbcauthentication.controller;
+package com.michael.instagram.controller;
 
 import java.io.IOException;
 import java.util.stream.Collectors;
